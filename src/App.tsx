@@ -136,9 +136,6 @@ function App() {
             <div className="flex justify-center text-sm opacity-75">
               <span>Free to Use • No Registration Required • Works Offline</span>
             </div>
-            <div className="flex justify-center text-sm opacity-75">
-              <span>Free to Use</span>
-            </div>
           </div>
         </div>
       </div>
