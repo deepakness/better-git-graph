@@ -18,7 +18,7 @@ function PrivacyPolicy() {
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-8">Privacy Policy for Better Git Graph</h1>
           
-          <p className="text-gray-600 mb-8">Last updated: January 2025</p>
+          <p className="text-gray-600 mb-8">Last updated: [Current Date]</p>
           
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Overview</h2>
@@ -73,15 +73,7 @@ function PrivacyPolicy() {
             
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact</h2>
             <p className="text-gray-600">
-              For privacy concerns or questions, please contact: 
-              <a 
-                href="https://deepakness.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-green-600 hover:text-green-700 ml-1"
-              >
-                deepakness.com
-              </a>
+              For privacy concerns or questions, please contact: [your-email@domain.com]
             </p>
           </div>
         </div>
