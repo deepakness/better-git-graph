@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Flame, Dice6, Zap, Moon, Download, Star, Shield, Repeat, Eye } from 'lucide-react';
 
 function App() {
@@ -321,7 +322,7 @@ function App() {
               <span className="text-lg font-semibold text-white">Better Git Graph</span>
             </div>
             <div className="flex gap-6 text-sm">
-              <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+              <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
               <a href="https://deepakness.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Contact</a>
             </div>
           </div>

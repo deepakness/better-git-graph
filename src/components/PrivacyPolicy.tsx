@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 
 function PrivacyPolicy() {
@@ -6,19 +7,19 @@ function PrivacyPolicy() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-6 py-16">
         <div className="mb-8">
-          <a 
-            href="/" 
+          <Link 
+            to="/" 
             className="inline-flex items-center text-green-600 hover:text-green-700 transition-colors mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
-          </a>
+          </Link>
         </div>
         
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-8">Privacy Policy for Better Git Graph</h1>
           
-          <p className="text-gray-600 mb-8">Last updated: [Current Date]</p>
+          <p className="text-gray-600 mb-8">Last updated: Aug 12, 2025</p>
           
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Overview</h2>
@@ -73,7 +74,7 @@ function PrivacyPolicy() {
             
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact</h2>
             <p className="text-gray-600">
-              For privacy concerns or questions, please contact: [your-email@domain.com]
+              For privacy concerns or questions, please contact: me@deepakness.com
             </p>
           </div>
         </div>
